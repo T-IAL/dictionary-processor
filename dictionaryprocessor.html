@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>测试</title>
+</head>
+<body>
+
+  <h1>词典设置</h1>
+  <input class="MyButtion" id="data" type="file" value="上传">
+  <form>
+    word: <input type="text" name="word" id="addword"><br>
+    definition: <input type="text" name="definition" id="definition"><br>
+    <input type="button" value="添加/修改" id="addwordbutton">
+  </form>
+  <form>
+    word: <input type="text" name="delword" id="delword"><br>
+    <input type="button" value="删除" id="delwordbutton">
+  </form>
+  <h2>词典内容</h2>
+  <p id='dictionary'></p>
+  <input type="button" id="downloadbutton" value="下载">
+  <input type="button" value="创建新词典" id="createnewdictionarybutton">
+  <input type="button" value="加载词典" id="loaddictionarybutton">
+  <input type="button" value="显示内容" id="showcontentbutton">
+  <script src="dictionary-processor 0.1.4.js"></script>
+</body>
+</html>
